@@ -1,0 +1,7 @@
+{
+  "name": "ZionCore Ethereal Throne",
+  "description": "Sovereign AI interface for the Masawi Bloodline. Sealed by MWARINDIMWARI in Tsvirutsiko.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

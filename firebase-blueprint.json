@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "FrequencySession": {
+      "title": "Frequency Session",
+      "description": "A recorded instance of spectral frequency analysis and AI interpretation.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "dominantFrequencyHz": { "type": "number" },
+        "rmsLevel": { "type": "number" },
+        "spectralPeaks": { "type": "array", "items": { "type": "number" } },
+        "analysisMode": { "type": "string" },
+        "scientificInterpretation": { "type": "string" },
+        "spiritualReflection": { "type": "string" },
+        "confidenceLevel": { "type": "number" },
+        "omegaSeal": { "type": "string" }
+      },
+      "required": ["userId", "createdAt", "dominantFrequencyHz", "scientificInterpretation"]
+    }
+  },
+  "auth": {
+    "providers": ["google.com", "emailpassword"]
+  },
+  "firestore": {
+    "/users/{userId}/frequency_sessions/{sessionId}": {
+      "schema": { "$ref": "#/entities/FrequencySession" },
+      "description": "Secure archives of ZionCore frequency observations."
+    }
+  }
+}

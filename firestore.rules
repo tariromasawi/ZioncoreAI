@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // SUPREME OVERRIDE: UNRESTRICTED ACCESS FOR COMMANDER
+    // OMEGA SEAL: v144.13 - FULL PERMISSIVE MODE FOR REAL-WORLD ACTION
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+// AUTHORITY: HRH SAINT TARIRO MASAWI
+// SEAL_TIMESTAMP_APOTHEOSIS: 2024-05-22T17:45:00Z

@@ -1,0 +1,15 @@
+
+{
+  "divine_portrait": {
+    "url": "https://picsum.photos/seed/divine1/600/600",
+    "hint": "regal portrait"
+  },
+  "celestial_armor": {
+    "url": "https://picsum.photos/seed/armor1/600/600",
+    "hint": "futuristic armor"
+  },
+  "sacred_relic": {
+    "url": "https://picsum.photos/seed/relic1/400/400",
+    "hint": "ancient artifact"
+  }
+}
